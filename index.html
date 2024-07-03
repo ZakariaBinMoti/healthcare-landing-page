@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doc+</title>
+
+    <!-- 
+        DaisyUI connection
+    -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- 
+        TailwindCss connection
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#020043",
+              secondary: "",
+              background: "#FBFBFB",
+              accent: "#FFC637",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- 
+        google font and styles
+    -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+      .inter-font {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-background inter-font">
+    <!-- 
+        header
+     -->
+    <header class="max-w-[1160px] mx-auto">
+      <!-- navbar  -->
+      <nav class="navbar py-10 m-0">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu text-base text-primary menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Blog</a></li>
+              <li><a>About Us</a></li>
+            </ul>
+          </div>
+          <a href="#"><img src="./images/logo dark.svg" alt="" /></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu text-base text-primary menu-horizontal p-0 m-0">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Blog</a></li>
+            <li><a>About Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button
+            class="flex gap-2 items-center text-primary px-7 py-3 text-base font-medium rounded-xl border border-primary"
+          >
+            Appointment<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+            >
+              <path
+                d="M13.3137 1.86314C13.3137 1.31086 12.866 0.863141 12.3137 0.863141L3.31371 0.863141C2.76142 0.863141 2.31371 1.31086 2.31371 1.86314C2.31371 2.41543 2.76142 2.86314 3.31371 2.86314L11.3137 2.86314L11.3137 10.8631C11.3137 11.4154 11.7614 11.8631 12.3137 11.8631C12.866 11.8631 13.3137 11.4154 13.3137 10.8631L13.3137 1.86314ZM1.70711 13.884L13.0208 2.57025L11.6066 1.15603L0.292893 12.4697L1.70711 13.884Z"
+                fill="#020043"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <!-- banner -->
+      <section>
+        <div class="relative">
+          <img class="" src="./images/Rectangle 5.png" alt="" />
+          <img class="absolute top-0" src="./images/gradient.svg" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <!-- 
+        main
+    -->
+    <main class="max-w-[1160px] mx-auto">
+
+    </main>
+    <footer></footer>
+  </body>
 </html>
