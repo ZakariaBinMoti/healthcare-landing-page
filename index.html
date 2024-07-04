@@ -45,7 +45,9 @@
       }
     </style>
   </head>
-  <body class="bg-background inter-font">
+  <body
+    class="bg-gradient-to-b from-[#d5d8e383] from-10% via-[#FBFBFB] via-15% to-[#d5d8e383] to-90% inter-font"
+  >
     <!-- 
         header
      -->
@@ -111,7 +113,7 @@
       </nav>
 
       <!-- banner -->
-      <section>
+      <section class="px-5 lg:px-0">
         <div class="relative">
           <img src="./images/Rectangle 5.png" alt="" />
           <img class="absolute top-0" src="./images/gradient.svg" alt="" />
@@ -122,11 +124,13 @@
     <!-- 
         main
     -->
-    <main class="max-w-[1160px] mx-auto">
+    <main class="max-w-[1160px] mx-auto lg:px-0 px-5">
       <!-- Comprehensive Care for Every Patient section -->
       <section class="mt-10 text-primary">
-        <div class="grid grid-cols-5 gap-5">
-          <div class="p-5 border border-[#02004333] rounded-3xl mt-[11px]">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
+          <div
+            class="p-5 bg-background border border-[#02004314] rounded-3xl mt-[11px]"
+          >
             <h1 class="text-[40px] font-semibold pb-2">90%</h1>
             <p class="text-sm font-normal pb-6">
               Patient satisfaction <br />
@@ -142,9 +146,9 @@
                 Comprehensive Care for Every Patient
               </h1>
             </div>
-            <div class="grid grid-cols-3 gap-5">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
               <div
-                class="p-5 bg-[#FFFFF5] border border-[#02004333] rounded-3xl"
+                class="p-5 bg-[#FFFFF5] border border-[#02004314] rounded-3xl"
               >
                 <h1 class="text-[40px] font-semibold">500+</h1>
                 <p class="text-sm font-normal">
@@ -155,7 +159,9 @@
                   <img src="./images/contract (1) 1.svg" alt="" />
                 </div>
               </div>
-              <div class="p-5 border border-[#02004333] mt-7 rounded-3xl">
+              <div
+                class="p-5 bg-background border border-[#02004314] mt-7 rounded-3xl"
+              >
                 <div class="flex items-center gap-3">
                   <h1 class="text-[40px] font-semibold pb-1">4.8</h1>
                   <img src="./images/fi-sr-star.svg" alt="" />
@@ -164,7 +170,7 @@
                 <img src="./images/Group 7.svg" alt="" />
               </div>
               <div
-                class="p-5 bg-[#FFFFF5] border border-[#02004333] rounded-3xl"
+                class="p-5 bg-[#FFFFF5] border border-[#02004314] rounded-3xl"
               >
                 <h1 class="text-[40px] font-semibold">$5000</h1>
                 <p class="text-sm font-normal">
@@ -177,7 +183,9 @@
               </div>
             </div>
           </div>
-          <div class="p-5 border border-[#02004333] rounded-3xl mt-[11px]">
+          <div
+            class="p-5 bg-background border border-[#02004314] rounded-3xl mt-[11px]"
+          >
             <h1 class="text-[40px] font-semibold">50+</h1>
             <p class="text-sm font-normal pt-2 pb-11">
               Free lession video <br />
@@ -191,7 +199,7 @@
       </section>
 
       <!-- Who we are section -->
-      <section class="mt-40 flex justify-between text-primary">
+      <section class="mt-40 flex lg:flex-row flex-col justify-between text-primary">
         <div>
           <button class="border border-[#343268] px-6 py-3 rounded-3xl mb-4">
             Who we are
@@ -228,9 +236,9 @@
         <div class="relative">
           <img src="./images/Rectangle 24.png" alt="" />
           <div
-            class="absolute bottom-0 -left-[87px] py-12 px-[30px] bg-[#343268] text-white rounded-[32px]"
+            class="absolute bottom-0 lg:-left-[87px] lg:py-12 py-3 px-3 lg:px-[30px] bg-[#343268] text-white rounded-[32px]"
           >
-            <h3 class="text-[26px] font-medium pb-5">Our mission is simple</h3>
+            <h3 class="lg:text-[26px] font-medium pb-5">Our mission is simple</h3>
             <p class="text-base font-normal opacity-80">
               To provide high-quality healthcare services <br />
               that are accessible, personalized, and <br />
@@ -242,7 +250,7 @@
 
       <!-- Service section -->
       <section class="mt-40 text-primary bg-secondary p-10 rounded-[32px]">
-        <div class="flex justify-between">
+        <div class="flex lg:flex-row flex-col justify-between">
           <div>
             <button class="border border-[#343268] px-6 py-3 rounded-3xl mb-4">
               Service
@@ -298,7 +306,7 @@
           </div>
         </div>
 
-        <div class="flex justify-between mt-[60px]">
+        <div class="flex lg:flex-row flex-col justify-between mt-[60px]">
           <div class="relative">
             <img
               class="rounded-[30px]"
@@ -360,7 +368,7 @@
             What they say about us
           </h1>
 
-          <div class="grid grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <!-- card 1 -->
             <div class="bg-secondary p-5 rounded-2xl">
               <h1 class="text-xl font-semibold">
@@ -565,7 +573,7 @@
           >
             <div class="flex flex-col justify-center items-center">
               <h1
-                class="text-[40px] text-secondary leading-[60px] font-semibold mb-6"
+                class="lg:text-[40px] text-secondary lg:leading-[60px] font-semibold mb-6"
               >
                 Get Your <br />
                 First Appointment <br />
@@ -573,7 +581,7 @@
               </h1>
               <div class="flex gap-5">
                 <button
-                  class="px-6 py-3 rounded-xl bg-accent flex items-center gap-2 text-base font-medium"
+                  class="lg:px-6 lg:py-3 rounded-xl bg-accent flex items-center gap-2 text-base font-medium"
                 >
                   Appointment<svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -589,7 +597,7 @@
                   </svg>
                 </button>
                 <button
-                  class="px-6 py-3 rounded-xl text-secondary border border-[#FFFFF5] flex items-center gap-2 text-base font-medium"
+                  class="lg:px-6 lg:py-3 rounded-xl text-secondary border border-[#FFFFF5] flex items-center gap-2 text-base font-medium"
                 >
                   Learn More<svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -616,11 +624,11 @@
         footer
     -->
     <footer class="bg-primary text-secondary">
-      <div class="max-w-[1160px] mx-auto py-[120px]">
+      <div class="max-w-[1160px] mx-auto py-[120px] pl-8 lg:pl-0">
         <div class="pb-8">
           <img src="./images/logo light.png" alt="" />
         </div>
-        <div class="opacity-80 flex justify-between">
+        <div class="opacity-80 flex lg:flex-row flex-col justify-between space-y-10 lg:space-y-0">
           <div>
             <p class="text-base font-normal">
               123 Main Street Anytown, USA <br />
